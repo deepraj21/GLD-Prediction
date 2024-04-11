@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # my csv columns are Date,SPX,GLD,USO,SLV,EUR/USD use them to predict the GLD where the input parameters will be SPX,USO,SLV,EUR/USD .use any model from sklearn.linear_model to predict GLD.
-import matplotlib.pyplot as plt
 
 # Load the CSV file
 data = pd.read_csv('gld_price_data.csv')
